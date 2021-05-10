@@ -1,0 +1,71 @@
+body {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-size: 35px;
+}
+
+h2 {
+    color: chocolate;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: brown;
+    font-family: "Bad Script";
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    background-color: white;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    color: aliceblue;
+    display: inline;
+}
+
+.links:hover {
+    background-color: black;
+    font-size: 30px;
+}
+
+#welcome {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: 9;
+}
+#bio{
+    padding: 50px;
+    margin-top: 200px;
+}
+a{
+    text-decoration: none;
+    text-shadow: 2px 2px gainsboro;
+    
+}
